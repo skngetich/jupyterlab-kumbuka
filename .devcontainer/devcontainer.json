@@ -1,20 +1,14 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
 // README at: https://github.com/devcontainers/templates/tree/main/src/anaconda
 {
-	"name": "Anaconda (Python 3)",
+	"name": "Jupyterlab-kumbuka Container",
 	"build": { 
 		"context": "..",
 		"dockerfile": "Dockerfile"
 	},
-	"features": {  
-		// "ghcr.io/devcontainers/features/anaconda:1": {
-		// 	"version": "latest"
-		// },
-		// "ghcr.io/cirolosapio/devcontainers-features/alpine-git:0": {},
-		// "ghcr.io/cirolosapio/devcontainers-features/alpine-node:0": {
-		// 	"corepack": true,
-		// 	"pnpmVersion": "latest"
-		// }
+	"features": { 
+		"ghcr.io/devcontainers/features/sshd:1": {},
+		"ghcr.io/devcontainers/features/node:1": {}
 	},
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
