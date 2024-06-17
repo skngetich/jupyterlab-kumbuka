@@ -1,0 +1,14 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+_commit: v4.3.1
+_src_path: https://github.com/jupyterlab/extension-template
+author_email: stephenngetich5@gmail.com
+author_name: Ng'etich Stephen
+has_binder: true
+has_settings: false
+kind: frontend
+labextension_name: jupyterlab-kumbuka
+project_short_description: Remember cell outputs
+python_name: jupyterlab_kumbuka
+repository: https://github.com/skngetich/jupyterlab-kumbuka
+test: true
+
